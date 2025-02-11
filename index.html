@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture et Vente de Fleurs</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            padding-top: 56px; /* Adjust for fixed navbar */
+        }
+        .card {
+            height: 100%;
+            margin-bottom: 20px;
+        }
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+        .jumbotron {
+            margin-bottom: 0;
+            background: linear-gradient(rgba(0, 128, 0, 0.7), rgba(0, 128, 0, 0.7)), url('header-background.jpg') no-repeat center center;
+            background-size: cover;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        @media (max-width: 768px) {
+            .jumbotron {
+                padding: 2rem 1rem;
+            }
+            .container {
+                padding: 10px;
+            }
+            .card img {
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Agriculture et Fleurs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#header">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produits">Produits</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#agriculture">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header id="header" class="jumbotron jumbotron-fluid text-center text-black">
+        <div class="container" >
+            <h1 class="display-4" b>Bienvenue à Agriculture et Vente de Fleurs</h1>
+            <p class="lead">Les meilleures fleurs et produits agricoles pour vous</p>
+        </div>
+    </header>
+
+    <!-- Produits -->
+    <section id="produits" class="container mt-5">
+        <h2 class="text-center">Nos Produits</h2>
+        <div class="row mt-4">
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="fleurs1.jpg" class="card-img-top" alt="Fleurs">
+                    <div class="card-body">
+                        <h5 class="card-title">Bouquet de Fleurs</h5>
+                        <p class="card-text">Un magnifique bouquet de fleurs fraîchement cueillies.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="legumes.jpg" class="card-img-top" alt="Légumes">
+                    <div class="card-body">
+                        <h5 class="card-title">Biofertilisants </h5>
+                        <p class="card-text">biofertilisants solide et liquide</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="fruits.jpg" class="card-img-top" alt="Fruits">
+                    <div class="card-body">
+                        <h5 class="card-title">Fruits de Saison</h5>
+                        <p class="card-text">Fruits frais et juteux de saison.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="plantes.jpg" class="card-img-top" alt="Plantes">
+                    <div class="card-body">
+                        <h5 class="card-title">Plantes Ornementales</h5>
+                        <p class="card-text">Des plantes ornementales pour embellir vos espaces.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="miel.jpg" class="card-img-top" alt="Miel">
+                    <div class="card-body">
+                        <h5 class="card-title">Miel Naturel</h5>
+                        <p class="card-text">Miel pur et naturel de nos ruches.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="herbes.jpg" class="card-img-top" alt="Herbes">
+                    <div class="card-body">
+                        <h5 class="card-title">Herbes Aromatiques</h5>
+                        <p class="card-text">Herbes fraîches pour rehausser vos plats.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="graines.jpg" class="card-img-top" alt="Graines">
+                    <div class="card-body">
+                        <h5 class="card-title">Graines Bio</h5>
+                        <p class="card-text">Graines bio pour votre jardin.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="card">
+                    <img src="jus.jpg" class="card-img-top" alt="Jus">
+                    <div class="card-body">
+                        <h5 class="card-title">Jus de Fruits</h5>
+                        <p class="card-text">Jus de fruits frais et naturels.</p>
+                        <a href="#" class="btn btn-primary">Acheter Maintenant</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agriculture Description -->
+    <section id="agriculture" class="container mt-5">
+        <h2 class="text-center">L'Importance de l'Agriculture</h2>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">L'Agriculture et l'Économie</h5>
+                        <p class="card-text">
+                            L'agriculture joue un rôle crucial dans l'économie de nombreux pays. Elle fournit des emplois à une grande partie de la population, assure la sécurité alimentaire et contribue de manière significative au PIB. En outre, l'agriculture soutient d'autres secteurs économiques tels que l'industrie agroalimentaire, le transport et le commerce.
+                        </p>
+                        <p class="card-text">
+                            Les innovations agricoles, telles que l'agriculture de précision et les pratiques durables, améliorent les rendements et réduisent l'impact environnemental. En investissant dans l'agriculture, les pays peuvent stimuler leur croissance économique, réduire la pauvreté et améliorer la qualité de vie de leurs citoyens.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="container mt-5">
+        <h2 class="text-center">Nos Services</h2>
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="conseil_agricole.jpg" class="card-img-top" alt="Conseil Agricole">
+                    <div class="card-body">
+                        <h5 class="card-title">Conseil Agricole</h5>
+                        <p class="card-text">Nous offrons des conseils personnalisés pour améliorer vos pratiques agricoles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="formation_horticulture.jpg" class="card-img-top" alt="Formation en Horticulture">
+                    <div class="card-body">
+                        <h5 class="card-title">Formation en Horticulture</h5>
+                        <p class="card-text">Des formations complètes pour maîtriser les techniques de l'horticulture.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="gestion_culture.jpg" class="card-img-top" alt="Gestion des Cultures">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestion des Cultures</h5>
+                        <p class="card-text">Services de gestion des cultures pour maximiser vos rendements.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="micro_jardinage.jpg" class="card-img-top" alt="Micro Jardinage">
+                    <div class="card-body">
+                        <h5 class="card-title">Micro Jardinage</h5>
+                        <p class="card-text">Techniques de micro jardinage pour les petits espaces urbains.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center text-lg-start mt-5">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Agriculture et Vente de Fleurs</h5>
+                    <p>
+                        Nous offrons les meilleurs produits agricoles et fleurs pour embellir votre vie.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0 text-center">
+                    <h5 class="text-uppercase">Suivez-nous</h5>
+                    <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-dark btn-floating m-1" role="button"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3 bg-dark text-white">
+            © 2023 Agriculture et Vente de Fleurs
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
